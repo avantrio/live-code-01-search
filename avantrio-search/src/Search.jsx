@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import TextField from '@material-ui/core/TextField';
 import Button from "@material-ui/core/Button";
+import {SearchAPI} from "./apis/SearchAPI";
 
 class Search extends Component {
     constructor(props) {
@@ -19,6 +20,16 @@ class Search extends Component {
 
     handleSearchClicked() {
         console.log(this.state.input);
+        SearchAPI.getResult(this.state.input)
+            .then((response) => {
+                console.log(response);
+                /*this.setState({siddhiAppList:response.data});
+                this.forceUpdate();*/
+            })
+            .catch(error => {
+                console.log(error.response);
+            });
+
     }
 
     render() {

@@ -13,9 +13,13 @@ class App extends Component {
 
     render() {
         return(
-            <div>
+            <div style={{height: '100%',display: 'flex'}}>
+                <div>
                 <SideBar/>
+                </div>
+                <div>
                 <Search/>
+                </div>
             </div>
         );
     }
