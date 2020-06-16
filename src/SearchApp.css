@@ -1,0 +1,16 @@
+.sidebar {
+    
+    background-color: #3072db;
+    height: 100vh;
+    min-width: 200px;
+    }
+
+
+    @media (min-width: 576px) { 
+        .sidebar {
+        
+        background-color: #3072db;
+        height: 100vh;
+        width: 200px;
+        }
+      }
