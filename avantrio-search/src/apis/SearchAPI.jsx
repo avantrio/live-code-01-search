@@ -1,4 +1,5 @@
 import Axios from 'axios';
+import axiosRateLimit from "axios-rate-limit";
 
 export class SearchAPI {
 //{'Authorization': 'Bearer ' + "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjozLCJ1c2VybmFtZSI6Imxha3NoYW4iLCJleHAiOjE1OTIzMDAxMDUsImVtYWlsIjoiIiwib3JpZ19pYXQiOjE1OTIyOTY1MDV9.xdpxyIDdJowELWNLzjMi4JceZ-Px0ophmScnjd7IzNE"}

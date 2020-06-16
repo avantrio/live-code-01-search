@@ -1,0 +1,33 @@
+.results{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.result{
+    width: 25%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 2vw;
+    min-width: 200px;
+}
+
+.result-name{
+    height: 3vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+}
+
+.result-item{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    flex-wrap: wrap;
+}
+
+.item-one{
+    width: 40%;
+    font-weight: bold;
+}
