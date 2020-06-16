@@ -1,11 +1,13 @@
 .sidebar {
     
     background-color: #3072db;
-    height: 100vh;
+    height: 100px;
     min-width: 200px;
     }
 
-
+.searchBar {
+    margin-top: 20px;
+}
     @media (min-width: 576px) { 
         .sidebar {
         
