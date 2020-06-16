@@ -1,13 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
+import Search from "./Search";
+import SideBar from "./SideBar";
 
-function App() {
-  return (
-    <div>
-      Hello
-    </div>
-  );
+class App extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            name: 'lll'
+        };
+    }
+
+    render() {
+        return(
+            <div>
+                <SideBar/>
+                <Search/>
+            </div>
+        );
+    }
 }
-
 export default App;
